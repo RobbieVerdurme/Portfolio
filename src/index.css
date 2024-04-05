@@ -1,3 +1,55 @@
+:root {
+  font-size: 16px;
+  font-family: "Open Sans";
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --text-accent: #00aeff;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
 body {
-    margin: auto;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--text-accent);
+}
+
+/* THEMES */
+.dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --text-accent: #00aeff;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+.light {
+  --text-primary: #1f1f1f;
+  --text-secondary: #000000;
+  --text-accent: #9abfcf;
+  --bg-primary: #ffffff;
+  --bg-secondary: #e4e4e4;
+}
+
+.solar {
+  --text-primary: #576e75;
+  --text-secondary: #35535c;
+  --text-accent: #b3ff00;
+  --bg-primary: #fdf6e3;
+  --bg-secondary: #f5e5b8;
 }
