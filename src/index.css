@@ -1,6 +1,7 @@
 :root {
   font-size: 16px;
   font-family: "Open Sans";
+  --mobile-break-point: 51rem;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --text-accent: #00aeff;
