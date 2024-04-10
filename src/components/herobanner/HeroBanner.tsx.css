@@ -1,0 +1,31 @@
+.hero-banner {
+  height: 30rem;
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  background-position: center;
+
+  /*OVERRIDE THE THEME COLOR*/
+  color: #fff;
+}
+
+.hero-page-banner {
+  height: calc(100vh - var(--top-banner-height));
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
