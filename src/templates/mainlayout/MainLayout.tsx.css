@@ -3,7 +3,7 @@
 }
 
 /* Small screens */
-@media only screen and (max-width: 51rem) {
+@media only screen and (max-width: 50rem) {
   main {
     margin-bottom: var(--top-banner-height);
   }
