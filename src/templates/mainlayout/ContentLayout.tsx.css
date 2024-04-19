@@ -1,0 +1,36 @@
+:root {
+  --top-banner-height: 5rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elevated {
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+  position: relative;
+  margin: -2rem 1rem 0;
+  z-index: 3;
+  border-radius: 0.2rem;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.elevated-container {
+  width: 95%;
+}
+
+.elevated-container-title {
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Small screens */
+@media only screen and (max-width: 50rem) {
+  .elevated {
+    margin: -2rem 0.5rem calc(var(--top-banner-height) + 1rem) 0.5rem;
+  }
+}

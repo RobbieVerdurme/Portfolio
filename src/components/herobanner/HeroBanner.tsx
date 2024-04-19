@@ -1,20 +1,29 @@
-import "./HeroBanner.tsx.css";
+import './HeroBanner.tsx.css';
 interface HeroBannerDependencies {
-  readonly title: string;
-  readonly subtitle: string;
+  readonly title?: string;
+  readonly subtitle?: string;
   readonly backgroundImageUrl?: string;
-  readonly fullScreen?: boolean;
+  readonly bannerStyle?: 'small' | 'normal' | 'large';
 }
 
 export function HeroBanner({
   title,
   subtitle,
   backgroundImageUrl,
-  fullScreen,
+  bannerStyle,
 }: HeroBannerDependencies) {
+  const getBannerStyle = () => {
+    switch (bannerStyle) {
+      case 'large':
+        return 'hero-banner-large';
+      case 'small':
+        return 'hero-banner-small';
+    }
+  };
+
   return (
     <div
-      className={`hero-banner ${fullScreen && "hero-page-banner"}`}
+      className={`hero-banner ${getBannerStyle()}`}
       style={{
         backgroundImage: backgroundImageUrl && `url(${backgroundImageUrl})`,
       }}

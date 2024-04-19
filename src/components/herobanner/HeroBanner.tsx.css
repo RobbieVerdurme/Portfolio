@@ -9,8 +9,12 @@
   color: #fff;
 }
 
-.hero-page-banner {
+.hero-banner-large {
   height: calc(100vh - var(--top-banner-height));
+}
+
+.hero-banner-small {
+  height: 15rem;
 }
 
 .hero-content {

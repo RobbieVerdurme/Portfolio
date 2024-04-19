@@ -1,5 +1,6 @@
 /* NAVBAR */
 .navbar {
+  z-index: 5;
   position: fixed;
   background-color: var(--bg-primary);
   overflow: hidden;

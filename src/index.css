@@ -1,19 +1,19 @@
 :root {
   font-size: 16px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --text-accent: #00aeff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --bg-elevated: #221f1f;
   --transition-speed: 600ms;
 }
 
 body {
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
   margin: 0;
   padding: 0;
+  background-color: var(--bg-elevated);
 }
 
 /* SCROLLBAR */
@@ -36,6 +36,7 @@ body::-webkit-scrollbar-thumb {
   --text-accent: #00aeff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --bg-elevated: #221f1f;
 }
 
 .light {
@@ -44,6 +45,7 @@ body::-webkit-scrollbar-thumb {
   --text-accent: #9abfcf;
   --bg-primary: #ffffff;
   --bg-secondary: #e4e4e4;
+  --bg-elevated: #fffefe;
 }
 
 .solar {
@@ -52,4 +54,5 @@ body::-webkit-scrollbar-thumb {
   --text-accent: #b3ff00;
   --bg-primary: #fdf6e3;
   --bg-secondary: #f5e5b8;
+  --bg-elevated: #ebe1c9;
 }
