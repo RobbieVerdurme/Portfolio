@@ -1,4 +1,4 @@
-import { ContentLayout } from '@templates/mainlayout/ContentLayout';
+import { ContentLayout } from '@templates/contentLayout/ContentLayout';
 
 export function HomePage() {
   return (
