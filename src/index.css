@@ -1,13 +1,16 @@
 :root {
-  font-size: 16px;
-  font-family: 'Open Sans';
+  --font-size: 16px;
+  --font-family: 'Open Sans';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --text-accent: #00aeff;
+  --accent-color: #00aeff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --bg-elevated: #221f1f;
   --transition-speed: 600ms;
+
+  font-size: var(--font-size);
+  font-family: var(--font-family);
 }
 
 body {
@@ -26,14 +29,14 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--text-accent);
+  background: var(--accent-color);
 }
 
 /* THEMES */
 .dark {
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --text-accent: #00aeff;
+  --accent-color: #00aeff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --bg-elevated: #221f1f;
@@ -42,7 +45,7 @@ body::-webkit-scrollbar-thumb {
 .light {
   --text-primary: #1f1f1f;
   --text-secondary: #000000;
-  --text-accent: #9abfcf;
+  --accent-color: #9abfcf;
   --bg-primary: #ffffff;
   --bg-secondary: #e4e4e4;
   --bg-elevated: #fffefe;
@@ -51,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 .solar {
   --text-primary: #576e75;
   --text-secondary: #35535c;
-  --text-accent: #b3ff00;
+  --accent-color: #b3ff00;
   --bg-primary: #fdf6e3;
   --bg-secondary: #f5e5b8;
   --bg-elevated: #ebe1c9;

@@ -5,9 +5,9 @@ import { ThemeContext } from '@contexts/ThemeContext';
 
 const links = [
   { Url: '/', Name: 'Home', Icon: 'home' },
-  { Url: '/', Name: 'About', Icon: 'user' },
-  { Url: '/', Name: 'Programs', Icon: 'code' },
-  { Url: '/', Name: 'Contact', Icon: 'address-card' },
+  { Url: '/about', Name: 'About', Icon: 'user' },
+  { Url: '/projects', Name: 'Projects', Icon: 'code' },
+  { Url: '/contact', Name: 'Contact', Icon: 'address-card' },
 ];
 
 export function NavBar() {
