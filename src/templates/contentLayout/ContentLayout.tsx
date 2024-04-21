@@ -1,6 +1,7 @@
 import { NavBar } from '@components/layout/navbar/NavBar';
 import './ContentLayout.tsx.css';
 import { HeroBanner } from '@components/herobanner/HeroBanner';
+import { Footer } from '@components/layout/footer/Footer';
 
 export function ContentLayout({ children, title }: { children?: React.ReactNode; title?: string }) {
   return (
@@ -17,6 +18,7 @@ export function ContentLayout({ children, title }: { children?: React.ReactNode;
           <div className="elevated-container-body">{children}</div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

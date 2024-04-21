@@ -1,0 +1,25 @@
+.footer {
+  color: var(--text-primary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0rem 1.5rem 0;
+}
+.footer-item {
+  padding-right: 1rem;
+}
+
+.footer-item:last-child {
+  padding-right: 0;
+}
+
+.supportedLanguages {
+  display: flex;
+}
+
+.copyright a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
