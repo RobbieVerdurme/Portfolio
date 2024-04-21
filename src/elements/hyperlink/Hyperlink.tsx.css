@@ -1,0 +1,12 @@
+.hyperlink {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.hyperlink:visited {
+  color: var(--text-primary);
+}
+
+.hyperlink:hover {
+  color: var(--accent-color);
+}
