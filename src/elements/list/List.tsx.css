@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+.list-row {
+  flex-direction: row;
+}
+
+.list-column {
+  flex-direction: column;
+}
+
+.list-item {
+  display: block;
+  margin: 0.5rem;
+  text-decoration: none;
+}
