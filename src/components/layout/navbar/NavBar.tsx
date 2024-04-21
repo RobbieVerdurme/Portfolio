@@ -2,16 +2,18 @@ import { NavLink } from 'react-router-dom';
 import './NavBar.tsx.css';
 import { useContext } from 'react';
 import { ThemeContext } from '@contexts/ThemeContext';
+import useLocalizedText from '@hooks/useLocalizedText';
 
 const links = [
-  { Url: '/', Name: 'Home', Icon: 'home' },
-  { Url: '/about', Name: 'About', Icon: 'user' },
-  { Url: '/projects', Name: 'Projects', Icon: 'code' },
-  { Url: '/contact', Name: 'Contact', Icon: 'address-card' },
+  { Url: '/', Name: 'links.home', Icon: 'home' },
+  { Url: '/about', Name: 'links.profile', Icon: 'user' },
+  { Url: '/projects', Name: 'links.projects', Icon: 'code' },
+  { Url: '/contact', Name: 'links.contact', Icon: 'address-card' },
 ];
 
 export function NavBar() {
   const { toggleTheme } = useContext(ThemeContext);
+  const { translate } = useLocalizedText();
 
   return (
     <nav className="navbar">
@@ -26,7 +28,7 @@ export function NavBar() {
           <li className="nav-item" key={link.Name}>
             <NavLink to={link.Url} className={'nav-link'}>
               <i className={`fa-solid fa-${link.Icon}`}></i>
-              <span className="link-text">{link.Name}</span>
+              <span className="link-text">{translate(link.Name)}</span>
             </NavLink>
           </li>
         ))}
