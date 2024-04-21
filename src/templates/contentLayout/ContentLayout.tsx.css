@@ -34,3 +34,9 @@ main {
   text-align: center;
   margin: 2rem;
 }
+
+@media only screen and (max-width: 50rem) {
+  .elevated {
+    margin: -2rem 0.5rem 0rem 0.5rem;
+  }
+}

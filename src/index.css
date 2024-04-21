@@ -21,8 +21,8 @@ body {
 
 /* Small screens */
 @media only screen and (max-width: 50rem) {
-  body {
-    margin: -2rem 0.5rem calc(var(--top-banner-height) + 1rem) 0.5rem;
+  body:has(.navbar) {
+    margin-bottom: calc(var(--top-banner-height) + 1rem);
   }
 }
 
