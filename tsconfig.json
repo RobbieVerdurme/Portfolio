@@ -7,6 +7,7 @@
       "@hooks/*": ["./hooks/*"],
       "@templates/*": ["./templates/*"],
       "@pages/*": ["./pages/*"],
+      "@elements/*": ["./elements/*"],
       "@/*": ["./*"]
     },
     "target": "ES2020",
