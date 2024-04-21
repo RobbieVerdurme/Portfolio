@@ -1,0 +1,187 @@
+{
+  "links": {
+    "home": "Page d'accueil",
+    "projects": "Projets",
+    "profile": "à propos de moi",
+    "contact": "Contact",
+    "language": "Langue",
+    "dutch": "Néerlandais",
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "home": {
+    "title": "Bienvenue",
+    "introduction": "Cet e-portefeuille vous accueille en tant que visiteur afin de vous donner un éventail de mes compétences et aptitudes. J’espère obtenir en retour une bonne évaluation de mes compétences et également de ma personnalité."
+  },
+  "projects": {
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "profile": {
+    "resumeTab": "Curriculum Vitae",
+    "lifeTab": "Ma vie",
+    "projectsTab": "Projets",
+    "github": "Suivez-moi sur Github",
+    "facebook": "Suivez-moi sur Facebook",
+    "linkedin": "Suivez-moi sur Linkedin",
+    "intro": "Je m'appelle Robbie Verdurme, je suis né le 20 janvier 1998 à Gand. Je suis diplômé en informatique à HoGent. Ma spécialisation dans ma 3ème année chez HoGent est la programmation d'applications pour les téléphones mobiles Android et Windows. C'est une étude très intéressante car je peux mettre beaucoup de créativité dans le code.",
+    "primarySchool": "J’ai passé mes 6 années primaires à l’école Sint-Lieven Kolegem. Dans cette école, les professeurs sont engagés envers les élèves et vous vous sentez le bienvenu. Quand je suis arrivé dans cette école, tout était neuf pour moi, et un peu stressé, mais grâce à la bienveillance des enseignants, je me suis senti comme chez moi dans ce groupe.",
+    "highSchool": "Mes études secondaires, je les ai suivies à Visitatie Mariakerke. Malgré la mauvaise réputation de cette école parmi les élèves, les enseignants en sont le point fort. Et c’est là que j’ai décidé ce que je voulais faire plus tard, l’informatique.",
+    "future": "Pour l’enseignement supérieur, le choix de la matière a été directement décidé. Je savais ce que je voulais faire pour mon futur. Je devais avoir un plus haut niveau de connaissances que j’avais déjà. C’est la raison pour laquelle j’ai choisi cette école supérieure.",
+    "projects": [
+      {
+        "img": ["img/projects/FiletoClassConverter.png"],
+        "name": "C# FileToClassConverter Nuget",
+        "description": "Le nuget filetoclassconverter est destiné aux personnes qui ont besoin d&#39;écrire des données dans des fichiers différents. Ce nuget convertit les extensions de fichiers les plus couramment utilisées, comme csv et xml, qui sont toujours structurées de la même manière.",
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme",
+        "IDE": "Visual Studio",
+        "ProgrammingLanguage": "C#"
+      },
+      {
+        "name": "Command executioner",
+        "description": "Le command executioner est un service qui se compose de deux parties. La première partie est la fonctionnalité de base qui concerne principalement l'exécution de différents types de commandes. Ces commandes peuvent aller de la génération d'un fichier pdf, xls à l'envoi d'un mail. La deuxième partie est une extension de la première partie. Les commandes sont exécuter dans un environnement différent de celui sur lequel tourne le command executioner. Par exemple, vous êtes à l'école et vous souhaitez imprimer sur l'imprimante de votre domicile. Le command executioner communiquera avec un programme lié pour transmettre la commande d'impression du fichier à votre domicile.",
+        "creators": "Robbie Verdurme, Kevin Verstraete",
+        "inventors": "Kevin Verstraete",
+        "IDE": "Visual Studio",
+        "ProgrammingLanguage": "C#"
+      },
+      {
+        "img": ["img/projects/portal-bot.png"],
+        "name": "portal-bot",
+        "description": "Il s'agit d'un bot de discorde créé dans le thème de la série rick and morty. Ce bot de portail peut gérer un nouveau canal de texte, gérer les rôles, sécuriser les canaux de texte, demander un devis complice, gérer les messages et envoyer des messages à l'utilisateur avec toutes les commandes",
+        "ProgrammingLanguage": "Javascript",
+        "IDE": "Visual studio code",
+        "githubLink": ["https://github.com/RobbieVerdurme/portal-bot"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/StageOpdrachtDigipolis.png"],
+        "name": "Stage opdracht Digipolis",
+        "description": "Mon stage chez digipolis consistait à développer une application web progressive généralement déployable et à étudier les possibilités de l'application web progressive dans le contexte de la ville de Gand.",
+        "ProgrammingLanguage": "Javascript",
+        "IDE": "Visual studio code",
+        "githubLink": [
+          "https://github.com/RobbieVerdurme/Stageopdracht_Digipolis"
+        ],
+        "creators": "Robbie Verdurme, Bart Delrue",
+        "inventors": "Robbie Verdurme, Bart Delrue"
+      },
+      {
+        "img": ["img/projects/MenuApp_Homescreen.jpg"],
+        "name": "MenuappV2",
+        "description": "Il s'agit d'une deuxième version de l'application de menu existante. Dans cette application, le code a été mis à jour avec le sujet étudié du cours Android.",
+        "ProgrammingLanguage": "Kotlin",
+        "IDE": "Android studio",
+        "githubLink": ["https://github.com/RobbieVerdurme/MenuAppV2"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/MenuAppPWA.png"],
+        "name": "Menuapp PWA",
+        "description": "Cette application a été créée dans le cadre de la thèse de licence afin de faire une comparaison entre une application native et une application web progressive.",
+        "ProgrammingLanguage": "Javascript",
+        "IDE": "Visual studio code",
+        "githubLink": ["https://github.com/RobbieVerdurme/MenuApp_PWA"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": [
+          "img/projects/MultiWeb_Challenge.jpg",
+          "img/projects/MultiWeb_Login.jpg"
+        ],
+        "name": "MultiWeb",
+        "description": "Cette application a été commandée par la société Multimed dans le cours Projets (3è année). Multimed veut que l’utilisateur ait un aperçu des défis encore à réaliser pour vivre en excellente santé.",
+        "ProgrammingLanguage": "Kotlin & C# & Typescript",
+        "IDE": "Android studio & Visual studio & Visual studio code",
+        "githubLink": [
+          "https://github.com/RobbieVerdurme/Projecten3_Angular",
+          "https://github.com/RobbieVerdurme/Projecten3_Android",
+          "https://github.com/RobbieVerdurme/Projecten3_Backend"
+        ],
+        "creators": "Robbie Verdurme, Shawn van Ranst, Jarni Naudts, Ruben Grillaert, Arno Boel, Navaron Bracke",
+        "inventors": "Robbie Verdurme, Shawn van Ranst, Jarni Naudts, Ruben Grillaert, Arno Boel, Navaron Bracke"
+      },
+      {
+        "img": [
+          "img/projects/MenuApp_Homescreen.jpg",
+          "img/projects/MenuApp_ListMenu.jpg"
+        ],
+        "name": "Menu App",
+        "description": "Au cours d’Android, il a été demandé de réaliser une application pour l’examen. Mon idée était de créer un MenuApp, de sorte que la personne utilisant cette application puisse choisir parmi une série de plats afin de composer son menu. C’est pourquoi je l’ai appelé MenuApp.",
+        "ProgrammingLanguage": "Kotlin",
+        "IDE": "Android studio",
+        "githubLink": ["https://github.com/RobbieVerdurme/MenuApp"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/StadsApp.jpg"],
+        "name": "Stads App",
+        "description": "Au cours de notre formation, nous nous sommes également concentrés sur la façon de développer une bonne application pour Windows. Avec cette application, nous voulons résoudre le problème des commerces environnants, voir les magasins de quartier, leur catégorie, leurs réductions.",
+        "ProgrammingLanguage": "C#",
+        "IDE": "Visual studio & Blend",
+        "githubLink": ["https://github.com/RobbieVerdurme/ProjectWindows"],
+        "creators": "Robbie Verdurme, Angelo Carly, Simon Anckaert",
+        "inventors": "Robbie Verdurme, Angelo Carly, Simon Anckaert"
+      },
+      {
+        "img": [
+          "img/projects/BreakoutBox_Java.png",
+          "img/projects/BreakoutBox_NET.png"
+        ],
+        "name": "BreakoutBox",
+        "description": "Projet réalisé pendant la 2è année. Le but est d’élaborer une évasion. Mais au lieu de chercher des issues pour continuer, vous devez trouver les réponses d’un questionnaire. Quand toutes les réponses sont correctes, vous avez trouvé le trésor.",
+        "ProgrammingLanguage": "Java & C#",
+        "IDE": "Netbeans & Visual studio",
+        "creators": "Robbie Verdurme, Pieter Vandendriessche, Angelo Carly, Simon Anckaert",
+        "inventors": "Robbie Verdurme, Pieter Vandendriessche, Angelo Carly, Simon Anckaert"
+      },
+      {
+        "img": ["img/projects/AngularSite_homescreen.jpg"],
+        "name": "Angular Site",
+        "description": "C’est un projet dont le but est de créer un site photo pour ma mère. Il doit être convivial et permettre aux utilisateurs de donner leurs avis sur les différentes photos.",
+        "ProgrammingLanguage": "Typescript",
+        "IDE": "Visual studio code",
+        "githubLink": ["https://github.com/RobbieVerdurme/ProjectWebIV"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/Pazaak.png"],
+        "name": "Pazaak",
+        "description": "C’est le premier projet réalisé pendant la 1ère année. Vous apprenez à travailler en équipe.",
+        "ProgrammingLanguage": "Java",
+        "IDE": "Netbeans",
+        "creators": "Robbie Verdurme, Chiel Sinnaeve, Gautier de Bruijne",
+        "inventors": "Robbie Verdurme, Chiel Sinnaeve, Gautier de Bruijne"
+      }
+    ],
+    "allProjects": "Voir tous les projets"
+  },
+  "projectdetail": {
+    "readmore": "Lire la suite",
+    "programmingLanguage": "Langage de programmation",
+    "info": "information",
+    "photos": "photo",
+    "Creators": "Creators",
+    "Inventors": "Créateurs/Créatrices"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "",
+    "nameForm": "Votre nom",
+    "emailForm": "Votre email",
+    "messageForm": "Votre message",
+    "sendFrom": "Envoyer le message"
+  },
+  "footer": {
+    "reportProblem": "Signaler un problème"
+  },
+  "error": {
+    "errorPreview": "Cet aperçu ne peut pas être chargé"
+  }
+}

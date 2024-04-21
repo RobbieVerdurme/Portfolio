@@ -1,0 +1,187 @@
+{
+  "links": {
+    "home": "Home",
+    "projects": "Projecten",
+    "profile": "Profiel",
+    "contact": "Contact",
+    "language": "Taal",
+    "dutch": "Nederlands",
+    "english": "Engels",
+    "french": "Frans"
+  },
+  "home": {
+    "title": "Welkom",
+    "introduction": "Dit e-portfolio heeft als bedoeling u als bezoeker van deze website een betere blik te geven over mijn competenties en vaardigheden. Hopelijk kan ik u via deze weg een ruim beeld geven van mijn competenties en persoonlijkheid."
+  },
+  "projects": {
+    "previous": "Vorige",
+    "next": "Volgende"
+  },
+  "profile": {
+    "resumeTab": "Curriculum Vitae",
+    "lifeTab": "Mijn leven",
+    "projectsTab": "Projecten",
+    "github": "Volg me op Github",
+    "facebook": "Volg me op Facebook",
+    "linkedin": "Volg me op Linkedin",
+    "intro": "Mijn naam is Robbie Verdurme. Ik ben geboren op 20 Januari 1998 te Gent. Ik ben afgestudeerd met het dipoloma in de richting Toegepaste Informatica aan de HoGent. In mijn 3de jaar van de opleiding heb ik de richting ‘mobile’ gekozen. Dit droeg mijn voorkeur omdat je meer van jezelf in de code kan leggen.",
+    "primarySchool": "Mijn eerste tot zesde leerjaar basisonderwijs heb ik gevolgd in Sint-lievens Kolegem. Deze school heeft veel zorgzame leerkrachten. Zij proberen er alles aan te doen om je er welkom te voelen. Dit was eveneens voor mij het geval. Toen ik er voor het eerst kwam, was ik nogal onzeker en was alles nog wat nieuw, maar dankzij de hulp van het lieftallig leerkrachtenkorps voelde ik me er bijna onmiddellijk thuis.",
+    "highSchool": "Voor het middelbare onderwijs heb ik besloten te veranderen van school en heb zes jaar les gevolgd op de Visitatie te Mariakerke. Ondanks het feit dat deze school een redelijk slechte reputatie heeft onder de leerlingen, zijn de leerkrachten nog altijd de sterkte kracht van deze school. Hier moest ik een eerste studiekeuze maken. Met de nodige begeleiding heb ik uiteindelijk voor de studierichting IT gekozen. Deze richting ligt mij het meest en ik wou hierin ook verder in de hogeschool.",
+    "future": "De keuze om verder te studeren was zo goed als onmiddellijk gemaakt. Voor de job die ik later wil uitvoeren (IT-er van een bedrijf) is nu eenmaal een bachelor diploma noodzakelijk. Ook de keuze van hogeschool was al zo goed als zeker. De keuze ging tussen Hogent (mijn huidige hogeschool) en Odisee. Mijn voorkeur ging uiteindelijk uit naar Hogent.",
+    "projects": [
+      {
+        "img": ["img/projects/FiletoClassConverter.png"],
+        "name": "C# FileToClassConverter Nuget",
+        "description": "De filetoclassconverter nuget is bedoeld voor personen die vaak data wegschrijven naar verschillende bestanden. Deze nuget zorgt voor de conversie van de meest gebruikte file extenties zoals csv en xml die altijd op de zelfde manier is opgebouwd.",
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme",
+        "IDE": "Visual Studio",
+        "ProgrammingLanguage": "C#"
+      },
+      {
+        "name": "Command executioner",
+        "description": "De command executioner is een service dat bestaat uit 2 delen. Het eerste deel is de core functionaliteit die zich vooral bezig houdt met het uitvoeren van verschillende soorten commando's. Deze commando's kunnen gaan van het genereren van een pdf bestand, xls bestand tot het verzenden van een mail. Het tweede deel is een uitbereiding op het eerste deel. Er kunnen commando's worden uitgevoerd in een andere omgeving dan deze op welke de command executioner draait. Bijvoorbeeld je bent op school en je wilt printen naar de printer bij jou thuis. De command executioner zal dan communiceren aan de hand van een gelinkt programma om het commando door te geven die dan het bestand bij jou thuis af zal printen.",
+        "creators": "Robbie Verdurme, Kevin Verstraete",
+        "inventors": "Kevin Verstraete",
+        "IDE": "Visual Studio",
+        "ProgrammingLanguage": "C#"
+      },
+      {
+        "img": ["img/projects/portal-bot.png"],
+        "name": "portal-bot",
+        "description": "Dit is een discord bot die gemaakt is in het thema van de rick and morty serie. Deze portal-bot kan een nieuwe text channel beheren, rollen beheren, text channels beveiligen, een rick en morty quote opvragen, berichten beheren en de gebruiker een bericht sturen met alle commando's",
+        "ProgrammingLanguage": "Javascript",
+        "IDE": "Visual studio code",
+        "githubLink": ["https://github.com/RobbieVerdurme/portal-bot"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/StageOpdrachtDigipolis.png"],
+        "name": "Stage opdracht Digipolis",
+        "description": "Mijn stage bij digipolis was het uitwerken van een algemeen inzetbare progressive web applicatie en de mogelijkheden van de progressive web applicatie onderzoeken in de context van Stad Gent.",
+        "ProgrammingLanguage": "Javascript",
+        "IDE": "Visual studio code",
+        "githubLink": [
+          "https://github.com/RobbieVerdurme/Stageopdracht_Digipolis"
+        ],
+        "creators": "Robbie Verdurme, Bart Delrue",
+        "inventors": "Robbie Verdurme, Bart Delrue"
+      },
+      {
+        "img": ["img/projects/MenuApp_Homescreen.jpg"],
+        "name": "MenuappV2",
+        "description": "Dit is een tweede versie van de bestaande menu app. In deze applicatie werd de code geupdate met de bestudeerde leerstof van het opleidingsonderdeel Android.",
+        "ProgrammingLanguage": "Kotlin",
+        "IDE": "Android studio",
+        "githubLink": ["https://github.com/RobbieVerdurme/MenuAppV2"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/MenuAppPWA.png"],
+        "name": "Menuapp PWA",
+        "description": "Deze applicatie werd gemaakt omwille van de bachelorproef om een vergelijking te kunnen maken tussen een native applicatie en een progressive web applicatie.",
+        "ProgrammingLanguage": "Javascript",
+        "IDE": "Visual studio code",
+        "githubLink": ["https://github.com/RobbieVerdurme/MenuApp_PWA"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": [
+          "img/projects/MultiWeb_Challenge.jpg",
+          "img/projects/MultiWeb_Login.jpg"
+        ],
+        "name": "MultiWeb",
+        "description": "Deze app werd opgedragen door het bedrijf Multimed in het kader van het opleidingsonderdeel Projecten 3. Multimed wou een app waarbij de gebruikers een overzicht hadden over alle uitdagingen zij nog moeten voltooien om gezonder te kunnen leven",
+        "ProgrammingLanguage": "Kotlin & C# & Typescript",
+        "IDE": "Android studio & Visual studio & Visual studio code",
+        "githubLink": [
+          "https://github.com/RobbieVerdurme/Projecten3_Angular",
+          "https://github.com/RobbieVerdurme/Projecten3_Android",
+          "https://github.com/RobbieVerdurme/Projecten3_Backend"
+        ],
+        "creators": "Robbie Verdurme, Shawn van Ranst, Jarni Naudts, Ruben Grillaert, Arno Boel, Navaron Bracke",
+        "inventors": "Robbie Verdurme, Shawn van Ranst, Jarni Naudts, Ruben Grillaert, Arno Boel, Navaron Bracke"
+      },
+      {
+        "img": [
+          "img/projects/MenuApp_Homescreen.jpg",
+          "img/projects/MenuApp_ListMenu.jpg"
+        ],
+        "name": "Menu App",
+        "description": "Tijdens het opleidingsonderdeel Android werd ons gevraagd een app te maken voor het examen. Mijn idee was een soort van menuapp te ontwerpen waarbij de persoon die de app gebruikt niet direct weet wat te eten die avond en zo een voorstel van een gerecht krijgt. In deze app kan je een aantal gerechten ingeven samen met de bereidingswijze om zo een lijst van gerechten samen te stellen.",
+        "ProgrammingLanguage": "Kotlin",
+        "IDE": "Android studio",
+        "githubLink": ["https://github.com/RobbieVerdurme/MenuApp"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/StadsApp.jpg"],
+        "name": "Stads App",
+        "description": "We hebben tijdens onze opleiding ook aandacht gespendeerd aan hoe je een goede windows app maakt. Met deze app willen we het probleem van de rondom liggende winkels oplossen. Met onze app kan je alle winkels zien in de nabije omgeving. Deze winkels hebben elk hun eigen categorie en kortingen.",
+        "ProgrammingLanguage": "C#",
+        "IDE": "Visual studio & Blend",
+        "githubLink": ["https://github.com/RobbieVerdurme/ProjectWindows"],
+        "creators": "Robbie Verdurme, Angelo Carly, Simon Anckaert",
+        "inventors": "Robbie Verdurme, Angelo Carly, Simon Anckaert"
+      },
+      {
+        "img": [
+          "img/projects/BreakoutBox_Java.png",
+          "img/projects/BreakoutBox_NET.png"
+        ],
+        "name": "BreakoutBox",
+        "description": "Dit project werd gerealiseerd in het 2de jaar van de hogeschool. De bedoeling was om een soort ‘escape room’ uit te werken. In plaats van om je heen te kijken en zo verschillende hints te zoeken om verder te kunnen gaan, dien je bij deze versie het antwoord te vinden op verschillende oefeningen. Zo ga je door totdat alle oefeningen zijn opgelost en je de schatkist hebt gevonden.",
+        "ProgrammingLanguage": "Java & C#",
+        "IDE": "Netbeans & Visual studio",
+        "creators": "Robbie Verdurme, Pieter Vandendriessche, Angelo Carly, Simon Anckaert",
+        "inventors": "Robbie Verdurme, Pieter Vandendriessche, Angelo Carly, Simon Anckaert"
+      },
+      {
+        "img": ["img/projects/AngularSite_homescreen.jpg"],
+        "name": "Angular Site",
+        "description": "Deze site was een project van mezelf. De bedoeling was om een foto site te maken voor mijn moeder. Deze site moest gebruiksvriendelijk zijn voor zowel diegene die de foto’s bekijkt als voor mijn moeder. Op deze site moet mijn moeder ook kunnen aanmelden om foto's aan te passen en er nieuwe op te plaatsen.",
+        "ProgrammingLanguage": "Typescript",
+        "IDE": "Visual studio code",
+        "githubLink": ["https://github.com/RobbieVerdurme/ProjectWebIV"],
+        "creators": "Robbie Verdurme",
+        "inventors": "Robbie Verdurme"
+      },
+      {
+        "img": ["img/projects/Pazaak.png"],
+        "name": "Pazaak",
+        "description": "Dit was het eerste project dat in het eerste jaar van de hogeschool werd gerealiseerd. Dit was een eerste kennismaking met hoe je dient te werken in team.",
+        "ProgrammingLanguage": "Java",
+        "IDE": "Netbeans",
+        "creators": "Robbie Verdurme, Chiel Sinnaeve, Gautier de Bruijne",
+        "inventors": "Robbie Verdurme, Chiel Sinnaeve, Gautier de Bruijne"
+      }
+    ],
+    "allProjects": "Bekijk alle projecten"
+  },
+  "projectdetail": {
+    "readmore": "Lees meer",
+    "programmingLanguage": "Programmeer taal",
+    "info": "info",
+    "photos": "foto's",
+    "Creators": "Makers(Developers)",
+    "Inventors": "Bedenkers"
+  },
+  "contact": {
+    "title": "Contact formulier",
+    "description": "",
+    "nameForm": "Uw naam",
+    "emailForm": "Uw email",
+    "messageForm": "Uw bericht",
+    "sendFrom": "Bericht verzenden"
+  },
+  "footer": {
+    "reportProblem": "Meld een probleem"
+  },
+  "error": {
+    "errorPreview": "Het voorbeeld kan niet geladen worden"
+  }
+}
