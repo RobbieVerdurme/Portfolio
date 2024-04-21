@@ -8,6 +8,7 @@
       "@templates/*": ["./templates/*"],
       "@pages/*": ["./pages/*"],
       "@elements/*": ["./elements/*"],
+      "@customTypes/*": ["./types/*"],
       "@/*": ["./*"]
     },
     "target": "ES2020",
