@@ -1,17 +1,11 @@
 import './HeroBanner.tsx.css';
 interface HeroBannerDependencies {
-  readonly title?: string;
-  readonly subtitle?: string;
+  readonly children?: React.ReactNode;
   readonly backgroundImageUrl?: string;
   readonly bannerStyle?: 'small' | 'normal' | 'large';
 }
 
-export function HeroBanner({
-  title,
-  subtitle,
-  backgroundImageUrl,
-  bannerStyle,
-}: HeroBannerDependencies) {
+export function HeroBanner({ backgroundImageUrl, bannerStyle, children }: HeroBannerDependencies) {
   const getBannerStyle = () => {
     switch (bannerStyle) {
       case 'large':
@@ -28,10 +22,7 @@ export function HeroBanner({
         backgroundImage: backgroundImageUrl && `url(${backgroundImageUrl})`,
       }}
     >
-      <div className="hero-content">
-        {title && <h1>{title}</h1>}
-        {subtitle && <p>{subtitle}</p>}
-      </div>
+      {children && <div className="hero-content">{children}</div>}
     </div>
   );
 }
