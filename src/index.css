@@ -39,6 +39,19 @@ body::-webkit-scrollbar-thumb {
   background: var(--accent-color);
 }
 
+/* LAYOUT */
+.md-layout-60 {
+  min-width: 60%;
+  max-width: 60%;
+  flex: 0 1 60%;
+}
+
+.md-layout-40 {
+  min-width: 40%;
+  max-width: 40%;
+  flex: 0 1 40%;
+}
+
 /* THEMES */
 .dark {
   --text-primary: #b6b6b6;

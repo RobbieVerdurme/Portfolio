@@ -28,7 +28,7 @@ export function NavBar() {
           <li className="nav-item" key={link.Name}>
             <NavLink to={link.Url} className={'nav-link'}>
               <i className={`fa-solid fa-${link.Icon}`}></i>
-              <span className="link-text">{translate(link.Name)}</span>
+              <span className="link-text">{translate<string>(link.Name)}</span>
             </NavLink>
           </li>
         ))}
