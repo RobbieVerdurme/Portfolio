@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 50rem) {
+  .container {
+    max-width: none;
+  }
+}
+
+@media only screen and (min-width: 60rem) {
+  .container {
+    max-width: 60%;
+  }
+}
