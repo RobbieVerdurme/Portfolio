@@ -4,14 +4,12 @@ interface ListProps extends React.OlHTMLAttributes<HTMLUListElement> {
   direction?: 'row' | 'column';
 }
 function List({ direction = 'column', ...props }: ListProps) {
-  return (
-    <ul className={`list list-${direction} ${props.className ? props.className : ''}`} {...props}>
-      {props.children}
-    </ul>
-  );
+  props.className = `list list-${direction} ${props.className ? props.className : ''}`;
+  return <ul {...props}>{props.children}</ul>;
 }
 
-List.Item = ({ ...props }: React.LiHTMLAttributes<HTMLLIElement>) => (
-  <li className={`list-item ${props.className ? props.className : ''}`}>{props.children}</li>
-);
+List.Item = ({ ...props }: React.LiHTMLAttributes<HTMLLIElement>) => {
+  props.className = `list-item ${props.className ? props.className : ''}`;
+  return <li {...props}>{props.children}</li>;
+};
 export default List;
