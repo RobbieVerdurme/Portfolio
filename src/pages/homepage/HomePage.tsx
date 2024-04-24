@@ -1,25 +1,19 @@
-import { ContentLayout } from '@templates/contentLayout/ContentLayout';
+import { PathConstants } from '@constants/PathConstants';
+import { Button } from '@elements/button/Button';
+import useLocalizedText from '@hooks/useLocalizedText';
+import { HeroLayout } from '@templates/heroLayout/HeroLayout';
 
 export function HomePage() {
+  const { translate } = useLocalizedText();
   return (
-    <ContentLayout>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </p>
-      </div>
-    </ContentLayout>
+    <HeroLayout>
+      <main>
+        <h1>{translate<string>('home.title')}</h1>
+        <p>{translate<string>('home.introduction')}</p>
+        <Button relativePageUrl={PathConstants.ABOUT}>
+          {translate<string>('links.profile')} <i className="fa-solid fa-arrow-right" />
+        </Button>
+      </main>
+    </HeroLayout>
   );
 }

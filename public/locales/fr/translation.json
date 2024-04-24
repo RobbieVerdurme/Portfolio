@@ -30,6 +30,7 @@
     "future": "Pour l’enseignement supérieur, le choix de la matière a été directement décidé. Je savais ce que je voulais faire pour mon futur. Je devais avoir un plus haut niveau de connaissances que j’avais déjà. C’est la raison pour laquelle j’ai choisi cette école supérieure.",
     "projects": [
       {
+        "id": "filetoclassconverter_nuget",
         "img": ["img/projects/FiletoClassConverter.png"],
         "name": "C# FileToClassConverter Nuget",
         "description": "Le nuget filetoclassconverter est destiné aux personnes qui ont besoin d&#39;écrire des données dans des fichiers différents. Ce nuget convertit les extensions de fichiers les plus couramment utilisées, comme csv et xml, qui sont toujours structurées de la même manière.",
@@ -39,6 +40,7 @@
         "ProgrammingLanguage": "C#"
       },
       {
+        "id": "command_executioner",
         "name": "Command executioner",
         "description": "Le command executioner est un service qui se compose de deux parties. La première partie est la fonctionnalité de base qui concerne principalement l'exécution de différents types de commandes. Ces commandes peuvent aller de la génération d'un fichier pdf, xls à l'envoi d'un mail. La deuxième partie est une extension de la première partie. Les commandes sont exécuter dans un environnement différent de celui sur lequel tourne le command executioner. Par exemple, vous êtes à l'école et vous souhaitez imprimer sur l'imprimante de votre domicile. Le command executioner communiquera avec un programme lié pour transmettre la commande d'impression du fichier à votre domicile.",
         "creators": "Robbie Verdurme, Kevin Verstraete",
@@ -47,6 +49,7 @@
         "ProgrammingLanguage": "C#"
       },
       {
+        "id": "portal-bot",
         "img": ["img/projects/portal-bot.png"],
         "name": "portal-bot",
         "description": "Il s'agit d'un bot de discorde créé dans le thème de la série rick and morty. Ce bot de portail peut gérer un nouveau canal de texte, gérer les rôles, sécuriser les canaux de texte, demander un devis complice, gérer les messages et envoyer des messages à l'utilisateur avec toutes les commandes",
@@ -57,18 +60,18 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "stage_internship_digipolis",
         "img": ["img/projects/StageOpdrachtDigipolis.png"],
         "name": "Stage opdracht Digipolis",
         "description": "Mon stage chez digipolis consistait à développer une application web progressive généralement déployable et à étudier les possibilités de l'application web progressive dans le contexte de la ville de Gand.",
         "ProgrammingLanguage": "Javascript",
         "IDE": "Visual studio code",
-        "githubLink": [
-          "https://github.com/RobbieVerdurme/Stageopdracht_Digipolis"
-        ],
+        "githubLink": ["https://github.com/RobbieVerdurme/Stageopdracht_Digipolis"],
         "creators": "Robbie Verdurme, Bart Delrue",
         "inventors": "Robbie Verdurme, Bart Delrue"
       },
       {
+        "id": "menuappv2",
         "img": ["img/projects/MenuApp_Homescreen.jpg"],
         "name": "MenuappV2",
         "description": "Il s'agit d'une deuxième version de l'application de menu existante. Dans cette application, le code a été mis à jour avec le sujet étudié du cours Android.",
@@ -79,6 +82,7 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "menuapp_pwa",
         "img": ["img/projects/MenuAppPWA.png"],
         "name": "Menuapp PWA",
         "description": "Cette application a été créée dans le cadre de la thèse de licence afin de faire une comparaison entre une application native et une application web progressive.",
@@ -89,10 +93,8 @@
         "inventors": "Robbie Verdurme"
       },
       {
-        "img": [
-          "img/projects/MultiWeb_Challenge.jpg",
-          "img/projects/MultiWeb_Login.jpg"
-        ],
+        "id": "multiweb",
+        "img": ["img/projects/MultiWeb_Challenge.jpg", "img/projects/MultiWeb_Login.jpg"],
         "name": "MultiWeb",
         "description": "Cette application a été commandée par la société Multimed dans le cours Projets (3è année). Multimed veut que l’utilisateur ait un aperçu des défis encore à réaliser pour vivre en excellente santé.",
         "ProgrammingLanguage": "Kotlin & C# & Typescript",
@@ -106,10 +108,8 @@
         "inventors": "Robbie Verdurme, Shawn van Ranst, Jarni Naudts, Ruben Grillaert, Arno Boel, Navaron Bracke"
       },
       {
-        "img": [
-          "img/projects/MenuApp_Homescreen.jpg",
-          "img/projects/MenuApp_ListMenu.jpg"
-        ],
+        "id": "menu_app",
+        "img": ["img/projects/MenuApp_Homescreen.jpg", "img/projects/MenuApp_ListMenu.jpg"],
         "name": "Menu App",
         "description": "Au cours d’Android, il a été demandé de réaliser une application pour l’examen. Mon idée était de créer un MenuApp, de sorte que la personne utilisant cette application puisse choisir parmi une série de plats afin de composer son menu. C’est pourquoi je l’ai appelé MenuApp.",
         "ProgrammingLanguage": "Kotlin",
@@ -119,6 +119,7 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "stads_app",
         "img": ["img/projects/StadsApp.jpg"],
         "name": "Stads App",
         "description": "Au cours de notre formation, nous nous sommes également concentrés sur la façon de développer une bonne application pour Windows. Avec cette application, nous voulons résoudre le problème des commerces environnants, voir les magasins de quartier, leur catégorie, leurs réductions.",
@@ -129,10 +130,8 @@
         "inventors": "Robbie Verdurme, Angelo Carly, Simon Anckaert"
       },
       {
-        "img": [
-          "img/projects/BreakoutBox_Java.png",
-          "img/projects/BreakoutBox_NET.png"
-        ],
+        "id": "breakoutbox",
+        "img": ["img/projects/BreakoutBox_Java.png", "img/projects/BreakoutBox_NET.png"],
         "name": "BreakoutBox",
         "description": "Projet réalisé pendant la 2è année. Le but est d’élaborer une évasion. Mais au lieu de chercher des issues pour continuer, vous devez trouver les réponses d’un questionnaire. Quand toutes les réponses sont correctes, vous avez trouvé le trésor.",
         "ProgrammingLanguage": "Java & C#",
@@ -141,6 +140,7 @@
         "inventors": "Robbie Verdurme, Pieter Vandendriessche, Angelo Carly, Simon Anckaert"
       },
       {
+        "id": "angular_site",
         "img": ["img/projects/AngularSite_homescreen.jpg"],
         "name": "Angular Site",
         "description": "C’est un projet dont le but est de créer un site photo pour ma mère. Il doit être convivial et permettre aux utilisateurs de donner leurs avis sur les différentes photos.",
@@ -151,6 +151,7 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "pazaak",
         "img": ["img/projects/Pazaak.png"],
         "name": "Pazaak",
         "description": "C’est le premier projet réalisé pendant la 1ère année. Vous apprenez à travailler en équipe.",

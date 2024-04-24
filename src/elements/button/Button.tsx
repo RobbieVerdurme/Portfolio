@@ -6,23 +6,19 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLElement> {
   relativePageUrl?: string;
 }
 export function Button({
-  children,
   variant = 'accent',
-  disabled,
+  disabled = false,
   relativePageUrl,
   ...props
 }: ButtonProps) {
+  props.className = `button button-${variant} ${disabled ? 'button-disabled' : ''} ${
+    props.className ? props.className : ''
+  }`;
   return relativePageUrl ? (
-    <NavLink
-      to={relativePageUrl}
-      className={`button button-${variant} ${disabled && 'button-disabled'}`}
-      {...props}
-    >
-      {children}
+    <NavLink to={relativePageUrl} {...props}>
+      {props.children}
     </NavLink>
   ) : (
-    <button className={`button button-${variant} ${disabled && 'button-disabled'}`} {...props}>
-      {children}
-    </button>
+    <button {...props}>{props.children}</button>
   );
 }

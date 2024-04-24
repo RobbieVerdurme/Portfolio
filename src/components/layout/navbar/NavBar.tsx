@@ -1,14 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import './NavBar.tsx.css';
 import { useContext } from 'react';
 import { ThemeContext } from '@contexts/ThemeContext';
 import useLocalizedText from '@hooks/useLocalizedText';
+import { PathConstants } from '@constants/PathConstants';
+import './NavBar.tsx.css';
 
 const links = [
-  { Url: '/', Name: 'links.home', Icon: 'home' },
-  { Url: '/about', Name: 'links.profile', Icon: 'user' },
-  { Url: '/projects', Name: 'links.projects', Icon: 'code' },
-  { Url: '/contact', Name: 'links.contact', Icon: 'address-card' },
+  { Url: PathConstants.HOME, Name: 'links.home', Icon: 'home' },
+  { Url: PathConstants.ABOUT, Name: 'links.profile', Icon: 'user' },
+  { Url: PathConstants.PROJECTS, Name: 'links.projects', Icon: 'code' },
+  { Url: PathConstants.CONTACT, Name: 'links.contact', Icon: 'address-card' },
 ];
 
 export function NavBar() {
@@ -19,7 +20,7 @@ export function NavBar() {
     <nav className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item nav-logo">
-          <NavLink to={'/'} className={'nav-link nav-logo-link'}>
+          <NavLink to={PathConstants.HOME} className={'nav-link nav-logo-link'}>
             <span className="link-text">Robbie Verdurme</span>
           </NavLink>
         </li>

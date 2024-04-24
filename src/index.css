@@ -22,7 +22,7 @@ body {
 /* Small screens */
 @media only screen and (max-width: 50rem) {
   body:has(.navbar) {
-    margin-bottom: calc(var(--top-banner-height) + 1rem);
+    margin-bottom: calc(var(--top-banner-height));
   }
 }
 

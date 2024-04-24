@@ -30,6 +30,7 @@
     "future": "When I left Visitatie my choice for University was made instantly : It had to be a university where they taught IT, more specifically programming. I wanted to be a programmer. So I went to HoGent.",
     "projects": [
       {
+        "id": "filetoclassconverter_nuget",
         "img": ["img/projects/FiletoClassConverter.png"],
         "name": "C# FileToClassConverter Nuget",
         "description": "The filetoclassconverter nuget is intended for people who need to write data to different files. This nuget converts the most commonly used file extensions like csv and xml which are always structured in the same way.",
@@ -39,6 +40,7 @@
         "ProgrammingLanguage": "C#"
       },
       {
+        "id": "command_executioner",
         "name": "Command executioner",
         "description": "The command executioner is a service that consists of two parts. The first part is the core functionality that is mainly concerned with the execution of different types of commands. These commands can range from generating a pdf file, an xls file to sending an e-mail. The second part is an extension of the first part. Commands can be executed in another environment than the one on which the command executer is running. For example, you are at school and you want to print to the printer at home. The command executor then communicates with a linked program to pass on the command to print the file at your house.",
         "creators": "Robbie Verdurme, Kevin Verstraete",
@@ -47,6 +49,7 @@
         "ProgrammingLanguage": "C#"
       },
       {
+        "id": "portal-bot",
         "img": ["img/projects/portal-bot.png"],
         "name": "portal-bot",
         "description": "This is a discord bot made in the theme of the rick and morty series. This portal bot can manage a text channels, manage roles, secure text channels, request a rick and morty quote, manage messages and send a message to the user with all commands",
@@ -57,18 +60,18 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "stage_internship_digipolis",
         "img": ["img/projects/StageOpdrachtDigipolis.png"],
         "name": "Stage internship Digipolis",
         "description": "My internship at digipolis was developing a generally deployable progressive web application and investigating the possibilities of the progressive web application in the context of the City of Ghent.",
         "ProgrammingLanguage": "Javascript",
         "IDE": "Visual studio code",
-        "githubLink": [
-          "https://github.com/RobbieVerdurme/Stageopdracht_Digipolis"
-        ],
+        "githubLink": ["https://github.com/RobbieVerdurme/Stageopdracht_Digipolis"],
         "creators": "Robbie Verdurme, Bart Delrue",
         "inventors": "Robbie Verdurme, Bart Delrue"
       },
       {
+        "id": "menuappv2",
         "img": ["img/projects/MenuApp_Homescreen.jpg"],
         "name": "MenuappV2",
         "description": "This is a second version of the existing menu app. In this application the code was updated with the studied subject matter of the Android course.",
@@ -79,6 +82,7 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "menuapp_pwa",
         "img": ["img/projects/MenuAppPWA.png"],
         "name": "Menuapp PWA",
         "description": "This application was created for the purpose of the bachelor's thesis in order to make a comparison between a native application and a progressive web application.",
@@ -89,10 +93,8 @@
         "inventors": "Robbie Verdurme"
       },
       {
-        "img": [
-          "img/projects/MultiWeb_Challenge.jpg",
-          "img/projects/MultiWeb_Login.jpg"
-        ],
+        "id": "multiweb",
+        "img": ["img/projects/MultiWeb_Challenge.jpg", "img/projects/MultiWeb_Login.jpg"],
         "name": "MultiWeb",
         "description": "This app was commissioned by the company Multimed under the course Projects 3. Multimed wanted an app where the user had an overview of the challenges they still have to complete in order to live healthier",
         "ProgrammingLanguage": "Kotlin & C# & Typescript",
@@ -106,10 +108,8 @@
         "inventors": "Robbie Verdurme, Shawn van Ranst, Jarni Naudts, Ruben Grillaert, Arno Boel, Navaron Bracke"
       },
       {
-        "img": [
-          "img/projects/MenuApp_Homescreen.jpg",
-          "img/projects/MenuApp_ListMenu.jpg"
-        ],
+        "id": "menu_app",
+        "img": ["img/projects/MenuApp_Homescreen.jpg", "img/projects/MenuApp_ListMenu.jpg"],
         "name": "Menu App",
         "description": "During the course on Android they asked us to make an app for the exam. My idea was to create a Menu App. An application that makes a proposition about what you can eat for dinner. In this app you have to enter a number of dishes with it’s preparation and ingredients. When you start the application, it gives you a random meal",
         "ProgrammingLanguage": "Kotlin",
@@ -119,6 +119,7 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "stads_app",
         "img": ["img/projects/StadsApp.jpg"],
         "name": "Stads App",
         "description": "We also spent time during our training to focus on how to make a good app for windows. With this app we want to solve the problem of the surrounding shops. With our app you can see all the shops in the neighborhood. These stores have their own category and discounts.",
@@ -129,10 +130,8 @@
         "inventors": "Robbie Verdurme, Angelo Carly, Simon Anckaert"
       },
       {
-        "img": [
-          "img/projects/BreakoutBox_Java.png",
-          "img/projects/BreakoutBox_NET.png"
-        ],
+        "id": "breakoutbox",
+        "img": ["img/projects/BreakoutBox_Java.png", "img/projects/BreakoutBox_NET.png"],
         "name": "BreakoutBox",
         "description": "This project was realised in the 2nd year of University. It’s a kind of escape room but instead of looking around for hints to continue, you have to find the answer to an exercise. If you solve all the questions you will find the treasure.",
         "ProgrammingLanguage": "Java & C#",
@@ -141,6 +140,7 @@
         "inventors": "Robbie Verdurme, Pieter Vandendriessche, Angelo Carly, Simon Anckaert"
       },
       {
+        "id": "angular_site",
         "img": ["img/projects/AngularSite_homescreen.jpg"],
         "name": "Angular Site",
         "description": "This site was a project of my own. The intention is to upload pictures. A kind of google photo’s as you will.",
@@ -151,6 +151,7 @@
         "inventors": "Robbie Verdurme"
       },
       {
+        "id": "pazaak",
         "img": ["img/projects/Pazaak.png"],
         "name": "Pazaak",
         "description": "This was the first project I made in my first year of university. The goal was to work as a team.",

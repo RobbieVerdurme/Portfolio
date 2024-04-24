@@ -1,4 +1,5 @@
 export type Project = {
+  id: string;
   img: string[];
   name: string;
   description: string;

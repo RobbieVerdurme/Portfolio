@@ -9,6 +9,7 @@
       "@pages/*": ["./pages/*"],
       "@elements/*": ["./elements/*"],
       "@customTypes/*": ["./types/*"],
+      "@constants/*": ["./constants/*"],
       "@/*": ["./*"]
     },
     "target": "ES2020",
