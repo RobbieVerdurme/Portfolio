@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './Button.tsx.css';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLElement> {
-  variant?: 'accent';
+  variant?: 'primary' | 'secondary' | 'accent';
   relativePageUrl?: string;
 }
 export function Button({
