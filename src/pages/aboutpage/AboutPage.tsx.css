@@ -1,0 +1,32 @@
+/* CONTENT LAYOUT HEADER*/
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -7rem;
+}
+
+.title,
+.sub-title {
+  margin: 0.5rem;
+}
+
+.profile img {
+  max-width: 10rem;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.social {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+/* CONTENT LAYOUT BODY */
+.profile-intro {
+  text-align: center;
+}
