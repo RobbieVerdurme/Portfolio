@@ -4,9 +4,11 @@ import useLocalizedText from '@hooks/useLocalizedText';
 import { Hyperlink } from '@elements/hyperlink/Hyperlink';
 import { Tabs } from '@components/tabs/Tabs';
 import { Tab } from '@customTypes/Tab';
-import { ProjectCard } from '@components/card/variants/ProjectCard';
-import { Project } from '@customTypes/Project';
-import { IFrame } from '@elements/iframe/IFrame';
+import { lazy } from 'react';
+
+const LifeTab = lazy(() => import('./tabs/LifeTab'));
+const ProjectsTab = lazy(() => import('./tabs/ProjectsTab'));
+const ResumeTab = lazy(() => import('./tabs/ResumeTab'));
 
 export default function AboutPage() {
   const { translate } = useLocalizedText();
@@ -38,7 +40,7 @@ export default function AboutPage() {
     <ContentLayout>
       <ContentLayout.Header>
         <div className="profile">
-          <img src="/img/faces/ProfilePic.jpg" />
+          <img src="/img/faces/ProfilePic.jpg" loading="lazy" />
           <div className="details">
             <h3 className="title">Robbie Verdurme</h3>
             <h6 className="sub-title">Developer</h6>
@@ -59,43 +61,5 @@ export default function AboutPage() {
         </div>
       </ContentLayout.Body>
     </ContentLayout>
-  );
-}
-
-function LifeTab() {
-  const { translate } = useLocalizedText();
-  return (
-    <p>
-      {translate<string>('profile.primarySchool')}
-      <br /> <br />
-      {translate<string>('profile.highSchool')}
-      <br />
-      <br />
-      {translate<string>('profile.future')}
-    </p>
-  );
-}
-
-function ProjectsTab() {
-  const { translate } = useLocalizedText();
-  const projects = translate<Project[]>('profile.projects');
-  const readMore = translate<string>('projectdetail.readmore');
-
-  return (
-    <div className="card-list">
-      {projects &&
-        projects.map((project) => (
-          <ProjectCard project={project} readMore={readMore} key={project.name}></ProjectCard>
-        ))}
-    </div>
-  );
-}
-
-function ResumeTab() {
-  return (
-    <IFrame
-      variant="large"
-      src="https://drive.google.com/file/d/1VMKJFcEmAuy0DrVG4sGrPbeS-cXPtcBz/preview"
-    />
   );
 }

@@ -4,7 +4,7 @@ import useLocalizedText from '@hooks/useLocalizedText';
 import { HeroLayout } from '@templates/heroLayout/HeroLayout';
 import './HomePage.tsx.css';
 
-export function HomePage() {
+export default function HomePage() {
   const { translate } = useLocalizedText();
   return (
     <HeroLayout>

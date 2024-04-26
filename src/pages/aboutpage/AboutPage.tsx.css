@@ -35,3 +35,28 @@
   width: 80%;
   max-width: 50rem;
 }
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 40rem;
+}
+
+.project-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 50rem) {
+  .card-list .md-layout-60 {
+    min-width: auto;
+    max-width: max-content;
+    flex: auto;
+  }
+  .project-img-container {
+    display: none;
+  }
+}

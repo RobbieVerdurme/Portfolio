@@ -14,6 +14,15 @@
   font-family: var(--font-family);
 }
 
+/* CENTER LOADING DIV IN PAGE */
+#root:has(> .lds-ellipsis) {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
 body {
   background-color: var(--bg-elevated);
   color: var(--text-primary);

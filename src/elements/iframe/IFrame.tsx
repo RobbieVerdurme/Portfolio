@@ -1,6 +1,6 @@
 import { useState } from 'react';
+import LazyLoader from '@components/lazy-loader/lazy-loader';
 import './IFrame.tsx.css';
-import { Loading } from '@components/loading/Loading';
 
 interface IFrameProps extends React.IframeHTMLAttributes<HTMLIFrameElement> {
   variant?: 'small' | 'normal' | 'large';
@@ -11,7 +11,7 @@ export function IFrame({ variant = 'normal', ...props }: IFrameProps) {
   props.className = `iframe iframe-${variant} ${props.className ? props.className : ''}`;
   return (
     <>
-      {isLoading ? <Loading /> : <></>}
+      {isLoading ? <LazyLoader delay={300} /> : <></>}
       <iframe
         {...props}
         frameBorder={0}

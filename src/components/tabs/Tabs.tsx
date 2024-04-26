@@ -1,7 +1,8 @@
 import { Tab } from '@customTypes/Tab';
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import { Button } from '@elements/button/Button';
 import List from '@elements/list/List';
+import LazyLoader from '@components/lazy-loader/lazy-loader';
 import './Tabs.tsx.css';
 
 export function Tabs({ tabs }: { tabs: Tab[] }) {
@@ -23,7 +24,9 @@ export function Tabs({ tabs }: { tabs: Tab[] }) {
           </List.Item>
         ))}
       </List>
-      <div className="tab-content">{activeTab.component}</div>
+      <div className="tab-content">
+        <Suspense fallback={<LazyLoader delay={300} />}>{activeTab.component}</Suspense>
+      </div>
     </div>
   );
 }

@@ -28,7 +28,7 @@ Card.Img = ({ ...props }: React.ImgHTMLAttributes<HTMLImageElement>) => {
   props.className = `card-img ${props.className ? props.className : ''}`;
   return (
     <div className="card-img-container">
-      <img {...props} />
+      <img {...props} loading="lazy" />
     </div>
   );
 };
