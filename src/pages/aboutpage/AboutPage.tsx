@@ -53,8 +53,10 @@ export default function AboutPage() {
         </div>
       </ContentLayout.Header>
       <ContentLayout.Body>
-        <p className="profile-intro">{translate<string>('profile.intro')}</p>
-        <Tabs tabs={tabs} />
+        <div className="about-content">
+          <p className="profile-intro">{translate<string>('profile.intro')}</p>
+          <Tabs tabs={tabs} />
+        </div>
       </ContentLayout.Body>
     </ContentLayout>
   );
