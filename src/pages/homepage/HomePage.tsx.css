@@ -6,6 +6,24 @@
   margin: 2rem;
 }
 
+.hero-content .hero-title,
+.hero-content .hero-description {
+  /*OVERRIDE THE THEME COLOR*/
+  color: #fff;
+}
+
+.hero-content .hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero-content .hero-description {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 0rem 2rem 0rem;
+}
+
 @media only screen and (max-width: 50rem) {
   .container {
     max-width: none;

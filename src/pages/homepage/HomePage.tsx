@@ -9,8 +9,8 @@ export function HomePage() {
   return (
     <HeroLayout>
       <main className="container">
-        <h1>{translate<string>('home.title')}</h1>
-        <p>{translate<string>('home.introduction')}</p>
+        <h1 className="hero-title">{translate<string>('home.title')}</h1>
+        <p className="hero-description">{translate<string>('home.introduction')}</p>
         <Button relativePageUrl={PathConstants.ABOUT}>
           {translate<string>('links.profile')} <i className="fa-solid fa-arrow-right" />
         </Button>
