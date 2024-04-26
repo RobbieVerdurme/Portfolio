@@ -6,6 +6,7 @@
   --accent-color: #00aeff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --bg-hover: #016492;
   --bg-elevated: #221f1f;
   --transition-speed: 600ms;
 
@@ -59,15 +60,17 @@ body::-webkit-scrollbar-thumb {
   --accent-color: #00aeff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --bg-hover: #001f2c;
   --bg-elevated: #221f1f;
 }
 
 .light {
   --text-primary: #1f1f1f;
   --text-secondary: #000000;
-  --accent-color: #9abfcf;
+  --accent-color: #00b3ff;
   --bg-primary: #ffffff;
   --bg-secondary: #e4e4e4;
+  --bg-hover: #001f2c;
   --bg-elevated: #fffefe;
 }
 
@@ -77,5 +80,6 @@ body::-webkit-scrollbar-thumb {
   --accent-color: #b3ff00;
   --bg-primary: #fdf6e3;
   --bg-secondary: #f5e5b8;
+  --bg-hover: #e2ff9e;
   --bg-elevated: #ebe1c9;
 }
