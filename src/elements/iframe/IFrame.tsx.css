@@ -1,0 +1,29 @@
+.iframe {
+  width: 100%;
+}
+
+@media only screen and (max-width: 50rem) {
+  .iframe-small {
+    min-height: 5rem;
+  }
+  .iframe-normal {
+    min-height: 10rem;
+  }
+  .iframe-large {
+    min-height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 50rem) {
+  .iframe-small {
+    min-height: 15rem;
+  }
+
+  .frame-normal {
+    min-height: 30rem;
+  }
+
+  .iframe-large {
+    min-height: 40rem;
+  }
+}
