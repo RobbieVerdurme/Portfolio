@@ -10,6 +10,7 @@
       "@elements/*": ["./elements/*"],
       "@customTypes/*": ["./types/*"],
       "@constants/*": ["./constants/*"],
+      "@utils/*": ["./utils/*"],
       "@/*": ["./*"]
     },
     "target": "ES2020",

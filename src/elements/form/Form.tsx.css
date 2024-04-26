@@ -1,0 +1,76 @@
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* FORM GROUP */
+.form-group {
+  display: flex;
+}
+
+/* ELEMENT*/
+.form-element {
+  margin: 1rem;
+  position: relative;
+}
+
+/* INPUT */
+.form-element-input {
+  background: var(--bg-primary);
+  border: none;
+  border-bottom: 0.1rem solid #c6c6c6;
+  border-radius: 0;
+  color: var(--text-primary);
+  display: block;
+  font-size: 1rem;
+  padding: 0.6rem 0rem 0.6rem 0rem;
+  resize: none;
+  width: 100%;
+}
+
+.form-element-input:focus {
+  outline: none;
+}
+
+.form-element-input:focus ~ .form-element-label,
+.form-element-input:valid ~ .form-element-label {
+  color: var(--accent-color);
+  font-size: 0.75rem;
+  top: -0.8rem;
+}
+
+.form-element-input:focus ~ .bar:before {
+  width: 100%;
+}
+
+.form-element-input[type='password'] {
+  letter-spacing: 0.3em;
+}
+
+/* LABEL */
+.form-element-label {
+  color: var(--text-primary);
+  left: 0.3rem;
+  top: 0.6rem;
+  position: absolute;
+  pointer-events: none;
+  transition: var(--transition-speed) ease all;
+}
+
+/* BAR */
+.bar {
+  position: relative;
+  display: block;
+}
+
+.bar:before {
+  content: '';
+  height: 0.1rem;
+  width: 0;
+  bottom: 0rem;
+  position: absolute;
+  background: var(--accent-color);
+  transition: var(--transition-speed) ease all;
+  left: 0%;
+}
