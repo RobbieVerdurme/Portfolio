@@ -6,8 +6,9 @@
   max-width: 40rem;
 }
 
-.project-img-container {
+.project-img-card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -18,7 +19,7 @@
     max-width: max-content;
     flex: auto;
   }
-  .project-img-container {
+  .project-img-card-container {
     display: none;
   }
 }

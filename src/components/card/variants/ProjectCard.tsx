@@ -12,7 +12,7 @@ export function ProjectCard({ project, readMore }: { project: Project; readMore:
         <Button relativePageUrl={`${PathConstants.PROJECTS}/${project.id}`}>{readMore}</Button>
       </Card.Body>
       {project.img && (
-        <div className="project-img-container md-layout-40">
+        <div className="project-img-card-container md-layout-40">
           {project.img.map((img) => (
             <Card.Img src={img} key={img} />
           ))}
