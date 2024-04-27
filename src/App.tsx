@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const HomePage = lazy(() => import('./pages/homepage/HomePage'));
 const AboutPage = lazy(() => import('./pages/aboutpage/AboutPage'));
 const ProjectsPage = lazy(() => import('./pages/projectspage/ProjectsPage'));
+const ProjectPage = lazy(() => import('./pages/projectpage/ProjectPage'));
 const ContactPage = lazy(() => import('./pages/contactpage/ContactPage'));
 const NotFoundPage = lazy(() => import('./pages/notfoundpage/NotFoundPage'));
 
@@ -35,6 +36,14 @@ export default function App() {
           element={
             <Suspense fallback={<LazyLoader delay={300} />}>
               <ProjectsPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path={PathConstants.PROJECT}
+          element={
+            <Suspense fallback={<LazyLoader delay={300} />}>
+              <ProjectPage />
             </Suspense>
           }
         />

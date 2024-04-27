@@ -9,10 +9,10 @@
 }
 
 .tab-content {
-  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: auto;
 }
 
 .tab-nav-item-content:not(.button-accent):hover {
@@ -33,6 +33,10 @@
 }
 
 @media only screen and (min-width: 50rem) {
+  .tab-content {
+    align-items: center;
+  }
+
   .tab-nav-item {
     max-width: 15rem;
     min-width: 11em;
