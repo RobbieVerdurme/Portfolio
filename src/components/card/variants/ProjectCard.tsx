@@ -2,6 +2,7 @@ import Card from '@components/card/Card';
 import { PathConstants } from '@constants/PathConstants';
 import { Project } from '@customTypes/Project';
 import { Button } from '@elements/button/Button';
+import './ProjectCard.tsx.css';
 
 export function ProjectCard({ project, readMore }: { project: Project; readMore: string }) {
   return (

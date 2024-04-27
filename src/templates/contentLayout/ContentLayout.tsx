@@ -20,8 +20,18 @@ ContentLayout.Header = ({ children }: { children?: React.ReactNode }) => {
   return <div className="elevated-container-title"> {children}</div>;
 };
 
-ContentLayout.Body = ({ children }: { children?: React.ReactNode }) => {
-  return <div className="elevated-container-body">{children}</div>;
+ContentLayout.Body = ({
+  children,
+  setMaxContentBody = false,
+}: {
+  children?: React.ReactNode;
+  setMaxContentBody?: boolean;
+}) => {
+  return (
+    <div className="elevated-container-body">
+      {setMaxContentBody ? <div className="max-body-content">{children}</div> : children}
+    </div>
+  );
 };
 
 export default ContentLayout;

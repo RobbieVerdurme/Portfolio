@@ -8,8 +8,8 @@ import { lazy } from 'react';
 import { useParams } from 'react-router-dom';
 import './ProjectPage.tsx.css';
 
-const Info = lazy(() => import('./tabs/Info'));
-const Photos = lazy(() => import('./tabs/Photos'));
+const Info = lazy(() => import('../../components/tabs/variants/Info'));
+const Photos = lazy(() => import('../../components/tabs/variants/Photos'));
 
 export default function ProjectPage() {
   const { projectId } = useParams();
@@ -45,11 +45,9 @@ export default function ProjectPage() {
       <ContentLayout.Header>
         <h1>{project.name}</h1>
       </ContentLayout.Header>
-      <ContentLayout.Body>
-        <div className="projectpage-content-container">
-          <p>{project.description}</p>
-          <Tabs tabs={tabs} />
-        </div>
+      <ContentLayout.Body setMaxContentBody={true}>
+        <p>{project.description}</p>
+        <Tabs tabs={tabs} />
       </ContentLayout.Body>
     </ContentLayout>
   );

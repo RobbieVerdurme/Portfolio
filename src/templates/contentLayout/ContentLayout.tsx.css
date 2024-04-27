@@ -1,7 +1,3 @@
-:root {
-  --top-banner-height: 5rem;
-}
-
 .main-container {
   display: flex;
   align-items: center;
@@ -33,6 +29,11 @@
 .elevated-container-title {
   text-align: center;
   margin: 2rem;
+}
+
+.max-body-content {
+  width: 80%;
+  max-width: 50rem;
 }
 
 @media only screen and (max-width: 50rem) {

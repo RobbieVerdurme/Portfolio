@@ -1,6 +1,7 @@
 import { ProjectCard } from '@components/card/variants/ProjectCard';
 import { Project } from '@customTypes/Project';
 import useLocalizedText from '@hooks/useLocalizedText';
+import './ProjectsTab.tsx.css';
 
 export default function ProjectsTab() {
   const { translate } = useLocalizedText();

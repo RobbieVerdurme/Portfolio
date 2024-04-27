@@ -1,3 +1,7 @@
+:root {
+  --top-banner-height: 5rem;
+}
+
 /* NAVBAR */
 .navbar {
   z-index: 5;

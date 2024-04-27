@@ -6,9 +6,9 @@ import { Tabs } from '@components/tabs/Tabs';
 import { Tab } from '@customTypes/Tab';
 import { lazy } from 'react';
 
-const LifeTab = lazy(() => import('./tabs/LifeTab'));
-const ProjectsTab = lazy(() => import('./tabs/ProjectsTab'));
-const ResumeTab = lazy(() => import('./tabs/ResumeTab'));
+const LifeTab = lazy(() => import('../../components/tabs/variants/LifeTab'));
+const ProjectsTab = lazy(() => import('../../components/tabs/variants/ProjectsTab'));
+const ResumeTab = lazy(() => import('../../components/tabs/variants/ResumeTab'));
 
 export default function AboutPage() {
   const { translate } = useLocalizedText();
@@ -54,11 +54,9 @@ export default function AboutPage() {
           </div>
         </div>
       </ContentLayout.Header>
-      <ContentLayout.Body>
-        <div className="about-content">
-          <p className="profile-intro">{translate<string>('profile.intro')}</p>
-          <Tabs tabs={tabs} />
-        </div>
+      <ContentLayout.Body setMaxContentBody={true}>
+        <p className="profile-intro">{translate<string>('profile.intro')}</p>
+        <Tabs tabs={tabs} />
       </ContentLayout.Body>
     </ContentLayout>
   );

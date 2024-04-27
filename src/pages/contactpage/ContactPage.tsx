@@ -2,7 +2,6 @@ import Card from '@components/card/Card';
 import Form from '@elements/form/Form';
 import useLocalizedText from '@hooks/useLocalizedText';
 import { HeroLayout } from '@templates/heroLayout/HeroLayout';
-import './ContactPage.tsx.css';
 
 export default function ContactPage() {
   const { translate } = useLocalizedText();
